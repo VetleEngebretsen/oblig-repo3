@@ -1,0 +1,11 @@
+CREATE TABLE BillettLager
+(
+    id INTEGER AUTO_INCREMENT NOT NULL,
+    film VARCHAR(255) NOT NULL,
+    antall INT NOT NULL,
+    fnavn VARCHAR(255) NOT NULL,
+    enavn VARCHAR(255) NOT NULL,
+    telefon VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
